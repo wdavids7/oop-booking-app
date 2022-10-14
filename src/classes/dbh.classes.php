@@ -11,7 +11,7 @@ class Dbh {
 
         } catch (PDOException $e) {
             print "Error!: " . $e->getMessage() . "<br/>";
-            exit();
+            die();
         }
     }
 }

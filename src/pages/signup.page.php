@@ -1,4 +1,7 @@
 <?php
+session_start();
+?>
+<?php
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
@@ -51,7 +54,7 @@ error_reporting(E_ALL);
   <section class="index-forms">
     <div class="container text-center">
       <div class="signup-form">
-        <h4 class="text-center">Let's get you squared away! Please fill out the details below <br> and we will sign you up.</h4>
+        <h2 class="text-center">Let's get you squared away! Please fill out the details below <br> and we will sign you up.</h2>
         <form action="./landing.page.php" method="post" class="row row-cols-lg-auto g-2 align-items-center justify-content-center">
 
           <!-- Username Input -->
