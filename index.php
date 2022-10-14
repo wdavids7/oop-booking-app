@@ -107,7 +107,7 @@ error_reporting(E_ALL);
 
     <!-- Don't have account...signup start -->
     <div class="container text-center">
-      <form action="#" method="post" class="row row-cols-lg-auto g-2 align-items-center justify-content-center">
+      <form action="./src/includes/signup.inc.php" method="post" class="row row-cols-lg-auto g-2 align-items-center justify-content-center">
         <p>Don't have an account yet? <a class="btn btn-warning" href="./src/pages/signup.page.php">Sign up here!</a></p>
       </form>
     </div>
